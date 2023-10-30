@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="form.css"
+</head>
+<body>
+   <div class="container">
+       <h2>FORM MAHASISWA</h2>
+
+       <form action="">
+           <label for="nama">Nama : </label>
+           <input type="text" id="nama" name="nama" required>
+           <br> <br>
+            <label for="jenis_kelamin">Jenis Kelamin : </label>
+            <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki">
+            <label for="laki_laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+            <label for="perempuan">Perempuan</label>
+            <br> <br>
+            <label for="address">Alamat : </label>
+            <input type="text" id="address" name="address" required>
+            <br> <br>
+            <label for="prodi">Prodi : </label>
+            <select name="prodi" id="prodi">
+                <option value="RPL">Rekayasa Perangkat Lunak</option>
+                <option value="ABI">Administrasi Bisnis Internasional</option>
+                <option value="AKP">Akuntansi Keuangan Publik</option>
+            </select>
+            <br> <br>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" required>
+            <br> <br>  
+            <label for "foto">Foto : </label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+            <br> <br>
+            <label for="comment">Komentar : </label>
+            <textarea name="comment" id="comment"></textarea>
+            <br> <br>
+            <input type="submit" value="Submit">
+        </form>
+</div>
+</body>
+</html>
