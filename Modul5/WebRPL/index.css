@@ -1,6 +1,5 @@
 /* style.css */
-/* style.css */
 .bordered-element {
-    border: 1px solid #FF0000; /* Border merah 1px */
+    border: 2px solid #FF0000; /* Misalnya, border merah 2px */
     padding: 50px;
 }
