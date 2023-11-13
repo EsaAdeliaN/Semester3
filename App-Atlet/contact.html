@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <link rel="stylesheet" href="css/account.css">
+</head>
+<style>
+  /* CSS lainnya... */
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* CSS lainnya... */
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+}
+
+.profile {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    margin: 5px;
+    color: #666;
+}
+
+.details {
+    flex: 1;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.details h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li strong {
+    width: 120px;
+    display: inline-block;
+}
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profileindex.html">profile</a></li>
+            <li><a href="tentang.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- konten akun -->
+        <div class="profile">
+          <img src="images/logoiconnobg.png" alt="Profile Picture">
+          <h1>Hapkido</h1>
+          <p>Email: hapkido@email.com</p>
+          <p>Member Since: January 2021</p>
+      </div>
+      <div class="details">
+          <h2>Account Details</h2>
+          <ul>
+              <li><strong>Coach</strong>: Bagus Sugianto</li>
+              <li><strong>Dojang</strong>: Kalinyamat Club</li>
+              <li><strong>Location</strong>: Donorojo, Jepara</li>
+              <li><strong>Call</strong>: 089672806868</li>
+          </ul>
+      </div>
+    </div>
+</body>
+</html>
