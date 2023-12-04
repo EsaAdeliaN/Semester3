@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /* Tambahkan style CSS di sini */
+        .jumbotron {
+            background-color: azure;
+        }
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        h2 {
+            position: relative;
+            top: -120px;
+            left: 115px;
+        }
+    </style>
+    <title>Layout Bootstrap</title>
+</head>
+<body>
+
+<!-- Header -->
+    <h1 text align="center">Selamat Datang!</h1>
+
+
+<!-- Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 flex-container">
+            <h2>Alpukat</h2>
+            <p>Alpukat (Persea americana) adalah buah yang berasal dari tanaman alpukat. Tanaman ini berasal dari Meksiko dan Amerika Tengah, tetapi sekarang ditanam di berbagai belahan dunia yang memiliki iklim tropis dan subtropis. Alpukat sering digunakan dalam berbagai hidangan, mulai dari salad, guacamole, hingga smoothie.</p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="assets/avocado.jpeg" alt="image">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+    <div class="container">
+        <p text align="center">&copy; 2023 @EsaAdeliaN</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

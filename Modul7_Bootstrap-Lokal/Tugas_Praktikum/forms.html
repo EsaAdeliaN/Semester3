@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Login</title>
+  <!-- Sertakan Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<style>
+    body {
+            background-color: #f8f9fa;
+        }
+
+    /* Gaya Khusus untuk Navbar */
+    .navbar {
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+        }
+    
+</style>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Components.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forms.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header" style="background-color:#007bff;">
+          <h3 class="text-center" style="color: white;">Forms</h3>
+        </div>
+        <div class="card-body">
+          <!-- Formulir Login -->
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+          </form>
+          <!-- Akhir Formulir Login -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sertakan Bootstrap JS dan Popper.js (jika diperlukan) -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
