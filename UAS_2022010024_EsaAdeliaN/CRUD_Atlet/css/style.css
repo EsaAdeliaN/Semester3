@@ -1,0 +1,99 @@
+/* Warna latar belakang navbar */
+  .navbar {
+    background: linear-gradient(to right, rgb(0, 128, 128), turquoise); /* Kombinasi warna teal dan turquoise */
+  }
+  
+  /* Warna teks pada brand dan menu */
+  .navbar-brand {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .navbar-brand:hover {
+    color: #ffffff; /* Set a different color for the brand on hover */
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Warna putih */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  .nav-item .nav-link {
+    color: #ffffff; /* Warna putih */
+  }
+  
+  /* Warna ikon toggle */
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Warna putih */
+  }
+  
+  /* Warna latar belakang toggle ketika dihover */
+  .navbar-toggler:hover {
+    background-color: #ffffff; /* Warna putih */
+  }
+  
+  /* Warna latar belakang dan teks pada menu saat dihover */
+  .navbar-nav .nav-link:hover {
+    background-color: #ffffff; /* Warna putih */
+    color: teal; /* Warna teal */
+  }
+  
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+.link a{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.link a:hover .bi-whatsapp{
+  color: #32CD32;
+}
+
+.link a:hover .bi-facebook{
+  color: #3b5998;
+}
+
+.link a:hover .bi-instagram{
+  color: #C13584;
+}
+
+    /* Footer styling */
+    .container-fluid {
+      padding: 0;
+  }
+
+  .row.bg-dark.text-white {
+      background-color: teal;
+      color: white;
+      padding: 20px;
+  }
+
+  .row.bg-dark.text-white h4 {
+      color: turquoise;
+  }
+
+  .row.bg-dark.text-white p {
+      color: white;
+  }
+
+  .col-md-6.my-2.text-center.link a {
+      color: turquoise;
+      margin: 0 10px;
+  }
+
+  .footer.bg-dark.text-white.text-center {
+      background-color: teal;
+      color: white;
+      padding: 5px;
+  }
+
+  .footer.bg-dark.text-white.text-center p {
+      margin: 0;
+      color: white;
+  }

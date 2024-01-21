@@ -1,0 +1,44 @@
+/* Add this to your existing CSS or create a new CSS file */
+
+body {
+    background-color: #f8f9fa; /* Bootstrap body background color */
+}
+
+.landing-container {
+    background-color: #ffffff; /* White background for the landing container */
+    padding: 50px 0; /* Add some padding for spacing */
+}
+
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff !important;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #008080;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #40e0d0;
+}
+
+.btn-primary {
+    background-color: #008080;
+    border-color: #008080;
+}
+
+.btn-primary:hover {
+    background-color: #006666;
+    border-color: #006666;
+}
